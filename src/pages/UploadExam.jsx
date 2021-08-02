@@ -29,15 +29,6 @@ const UploadExam = () => {
 				contentDisposition: 'inline',
 				contentType: 'application/pdf',
 			});
-            const data = {
-                name,
-                category,
-                subject,
-                professor,
-                url: `${REACT_APP_FILE_REPO}/${key}`
-            };
-            
-            await axios.post(`${REACT_APP_HOST}/exams`, data);
 			alert('Prova enviada com sucesso!');
 			setDisabled(false);
 		} catch (err) {

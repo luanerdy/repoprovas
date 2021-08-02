@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "repoprovas": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "repoprovasresource": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}

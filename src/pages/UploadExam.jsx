@@ -85,8 +85,8 @@ const UploadExam = () => {
 			setName('');
 			setFile(undefined);
 			setDisabled(false);
-			window.open(data.url, "_blank");
-			history.push("/");
+			window.open(data.url, '_blank');
+			history.push('/');
 		} catch (err) {
 			alert('Erro! Tente novamente!');
 			setDisabled(false);

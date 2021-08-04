@@ -118,7 +118,7 @@ const UploadExam = () => {
 					setValue={setSubject}
 				/>
 				<Select
-					disabled={subjects.length === 0}
+					disable={!subject}
 					options={['Selecione o professor', ...professors]}
 					required
 					value={professor}

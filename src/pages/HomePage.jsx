@@ -8,8 +8,8 @@ const HomePage = () => {
             <div>
                 <p>Visualizar provas</p>
                 <div>
-                    <a href="#">por professor <BsBoxArrowUpRight /></a>
-                    <a href="#">por disciplina <BsBoxArrowUpRight /></a>
+                    <Link to="/professors">por professor <BsBoxArrowUpRight /></Link>
+                    <Link to="/subjects">por disciplina <BsBoxArrowUpRight /></Link>
                 </div>
             </div>
             <div>

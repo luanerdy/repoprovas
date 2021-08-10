@@ -15,4 +15,4 @@ ___
 ___
 [Clique aqui](https://repoprovas-seven.vercel.app/) para acessar o App
 ___
-![print](./public/images/print.png)
+![print](./public/images/print2.png)

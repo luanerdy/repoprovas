@@ -1,6 +1,6 @@
 # ![icon](./public/images/icon.png) RepoProvas
 # App para acessar provas de faculdade
-### Criado na semana 20 do bootcamp Responde Aí
+
 ## Tecnologias Utilizadas no front-end:
 |HTML|CSS|JavaScript|ReactJS|
 |-|-|-|-|
